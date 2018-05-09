@@ -1,1 +1,3 @@
 # Toko-Onlineku
+Toko online yang belum jadi, mungkin ada yang mo bantuin. Monggo...
+Based PHP Native

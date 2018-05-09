@@ -1,0 +1,13 @@
+RewriteEngine On
+RewriteRule ^login index.php?page=login [NC,L]
+RewriteRule ^register index.php?page=register [NC,L]
+
+RewriteRule ^admin/([A-Za-z0-9-]+)/?$ index.php?page=admin&go=$1 [NC,L]
+RewriteRule ^admin/([^/\.]+)/?/([^/\.]+)$ index.php?page=admin&go=$1&m=$2 [NC]
+RewriteRule ^admin/([^/\.]+)/?/([^/\.]+)/?/([^/\.]+)$ index.php?page=admin&go=$1&m=$3&id=$2 [NC]
+
+
+RewriteRule ^logout index.php?page=logout [NC,L]
+
+
+
